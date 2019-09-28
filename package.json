@@ -3,6 +3,7 @@
   "version": "1.0.1",
   "description": "Async Result object for TypeScript",
   "main": "build/index.js",
+  "types": "build/index.d.ts",
   "repository": "https://github.com/garbles/result-object",
   "author": "Gabe Scholz",
   "license": "MPL-2.0",
