@@ -1,0 +1,16 @@
+{
+  "name": "result-object",
+  "version": "1.0.0",
+  "description": "Async Result object for TypeScript",
+  "main": "build/index.js",
+  "author": "Gabe Scholz",
+  "license": "MPL-2.0",
+  "devDependencies": {
+    "typescript": "^3.6.3"
+  },
+  "scripts": {
+    "clean": "rm -rf build",
+    "build": "tsc",
+    "prepublish": "npm run clean && npm run build"
+  }
+}
